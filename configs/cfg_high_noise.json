@@ -1,0 +1,7 @@
+{
+  "_comment": "高噪声鲁棒性评测配置：噪声 5%、坏数据 8%、缺测加重",
+  "noise_std": 0.05,
+  "bad_data_ratio": 0.08,
+  "v_meas_ratio": 0.4,
+  "i_meas_ratio": 0.2
+}

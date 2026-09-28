@@ -1,0 +1,12 @@
+{
+ "IEEE33-000100": "succ",
+ "IEEE33-000197": "succ",
+ "CIGRE_MV-000044": "fail",
+ "CIGRE_MV-000087": "fail",
+ "IEEE33-000009": "ho_succ",
+ "IEEE33-000021": "ho_succ",
+ "CIGRE_MV-000323": "ho_fail",
+ "CIGRE_MV-000160": "ho_fail",
+ "IEEE33-000027": "abstain",
+ "IEEE33-000070": "abstain_miss"
+}

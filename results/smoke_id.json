@@ -1,0 +1,80 @@
+{
+  "overall": {
+    "n": 30,
+    "v_mae": 1.0,
+    "viol_f1": 0.23333333333333334,
+    "state_acc": 0.0,
+    "format_rate": 0.0,
+    "order_rate": 0.0,
+    "phys_resid": null,
+    "phys_score": 0.0,
+    "reward": 0.037333333333348304,
+    "ics": 0.0
+  },
+  "ics_sensitivity": {
+    "tol_0.002": null,
+    "tol_0.005": null,
+    "tol_0.01": null
+  },
+  "confidence_vs_error": {},
+  "CIGRE_MV": {
+    "n": 10,
+    "v_mae": 1.0,
+    "viol_f1": 0.3,
+    "state_acc": 0.0,
+    "format_rate": 0.0,
+    "order_rate": 0.0,
+    "phys_resid": null,
+    "phys_score": 0.0,
+    "reward": 0.048000000000014975,
+    "ics": 0.0
+  },
+  "IEEE33": {
+    "n": 10,
+    "v_mae": 1.0,
+    "viol_f1": 0.0,
+    "state_acc": 0.0,
+    "format_rate": 0.0,
+    "order_rate": 0.0,
+    "phys_resid": null,
+    "phys_score": 0.0,
+    "reward": 1.497219675014428e-14,
+    "ics": 0.0
+  },
+  "SimBench_1-MV-urban--0-sw": {
+    "n": 10,
+    "v_mae": 1.0,
+    "viol_f1": 0.4,
+    "state_acc": 0.0,
+    "format_rate": 0.0,
+    "order_rate": 0.0,
+    "phys_resid": null,
+    "phys_score": 0.0,
+    "reward": 0.06400000000001498,
+    "ics": 0.0
+  },
+  "task_T1": {
+    "n": 18,
+    "v_mae": 1.0,
+    "viol_f1": 0.2222222222222222,
+    "state_acc": 0.0,
+    "format_rate": 0.0,
+    "order_rate": 0.0,
+    "phys_resid": null,
+    "phys_score": 0.0,
+    "reward": 0.03555555555557053,
+    "ics": null
+  },
+  "task_T3": {
+    "n": 12,
+    "v_mae": 1.0,
+    "viol_f1": 0.25,
+    "state_acc": 0.0,
+    "format_rate": 0.0,
+    "order_rate": 0.0,
+    "phys_resid": null,
+    "phys_score": 0.0,
+    "reward": 0.040000000000014975,
+    "ics": 0.0
+  }
+}

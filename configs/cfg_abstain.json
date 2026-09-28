@@ -1,0 +1,8 @@
+{
+  "_comment": "极低量测可拒识评测配置（M3）：电压量测率 20%（低于 abstain 阈值 0.35），验证 insufficient_evidence 拒识行为",
+  "v_meas_ratio": 0.2,
+  "i_meas_ratio": 0.1,
+  "noise_std": 0.02,
+  "bad_data_ratio": 0.02,
+  "t1_ratio": 1.0
+}

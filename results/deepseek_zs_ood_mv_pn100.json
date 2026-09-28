@@ -1,0 +1,40 @@
+{
+  "model": "deepseek-chat",
+  "fewshot": 0,
+  "overall": {
+    "n": 200,
+    "v_mae": 0.3217534374999999,
+    "viol_f1": 0.36,
+    "state_acc": 0.005,
+    "format_rate": 0.71,
+    "order_rate": 0.72,
+    "phys_resid": 0.3482999063361961,
+    "phys_score": 3.960881182980547e-15,
+    "reward": 0.2973480196279382,
+    "ics": 0.0
+  },
+  "task_T1": {
+    "n": 125,
+    "v_mae": 0.4071999999999999,
+    "viol_f1": 0.424,
+    "state_acc": 0.008,
+    "format_rate": 0.624,
+    "order_rate": 0.624,
+    "phys_resid": null,
+    "phys_score": 0.0,
+    "reward": 0.2779573151892249,
+    "ics": null
+  },
+  "task_T3": {
+    "n": 75,
+    "v_mae": 0.17934250000000002,
+    "viol_f1": 0.25333333333333335,
+    "state_acc": 0.0,
+    "format_rate": 0.8533333333333334,
+    "order_rate": 0.88,
+    "phys_resid": 0.3482999063361961,
+    "phys_score": 1.0562349821281458e-14,
+    "reward": 0.32966586035912715,
+    "ics": 0.0
+  }
+}

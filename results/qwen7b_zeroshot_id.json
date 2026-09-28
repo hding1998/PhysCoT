@@ -1,0 +1,56 @@
+{
+  "overall": {
+    "n": 300,
+    "v_mae": 1.0,
+    "viol_f1": 0.31333333333333335,
+    "state_acc": 0.0,
+    "format_rate": 0.0,
+    "order_rate": 0.0,
+    "phys_resid": null,
+    "phys_score": 0.0,
+    "reward": 0.05013333333334831,
+    "ics": 0.0
+  },
+  "ics_sensitivity": {
+    "tol_0.002": null,
+    "tol_0.005": null,
+    "tol_0.01": null
+  },
+  "confidence_vs_error": {},
+  "IEEE33": {
+    "n": 300,
+    "v_mae": 1.0,
+    "viol_f1": 0.31333333333333335,
+    "state_acc": 0.0,
+    "format_rate": 0.0,
+    "order_rate": 0.0,
+    "phys_resid": null,
+    "phys_score": 0.0,
+    "reward": 0.05013333333334831,
+    "ics": 0.0
+  },
+  "task_T1": {
+    "n": 195,
+    "v_mae": 1.0,
+    "viol_f1": 0.358974358974359,
+    "state_acc": 0.0,
+    "format_rate": 0.0,
+    "order_rate": 0.0,
+    "phys_resid": null,
+    "phys_score": 0.0,
+    "reward": 0.057435897435912424,
+    "ics": null
+  },
+  "task_T3": {
+    "n": 105,
+    "v_mae": 1.0,
+    "viol_f1": 0.22857142857142856,
+    "state_acc": 0.0,
+    "format_rate": 0.0,
+    "order_rate": 0.0,
+    "phys_resid": null,
+    "phys_score": 0.0,
+    "reward": 0.036571428571443555,
+    "ics": 0.0
+  }
+}

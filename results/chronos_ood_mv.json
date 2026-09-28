@@ -1,0 +1,35 @@
+{
+  "overall": {
+    "n": 1000,
+    "v_mae": 0.07297809259261191,
+    "viol_f1": 0.22129036255640167,
+    "state_acc": 0.666,
+    "format_rate": null,
+    "phys_resid": null,
+    "ics": null
+  },
+  "history_mode": {
+    "curve_reconstructed": 1000
+  },
+  "skipped": {},
+  "model": "amazon/chronos-bolt-small",
+  "context_len": 48,
+  "SimBench_1-MV-rural--0-sw": {
+    "n": 500,
+    "v_mae": 0.07287364980739355,
+    "viol_f1": 0.253693276260084,
+    "state_acc": 0.716,
+    "format_rate": null,
+    "phys_resid": null,
+    "ics": null
+  },
+  "SimBench_1-MV-semiurb--0-sw": {
+    "n": 500,
+    "v_mae": 0.07308253537783027,
+    "viol_f1": 0.18888744885271933,
+    "state_acc": 0.616,
+    "format_rate": null,
+    "phys_resid": null,
+    "ics": null
+  }
+}

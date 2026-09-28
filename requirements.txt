@@ -1,0 +1,37 @@
+# PhysCoT 实验环境依赖（pip 版；与 environment.yml 同步，推荐优先用 conda：conda env create -f environment.yml）
+# 安装：pip install -r 05_环境/requirements.txt --extra-index-url https://download.pytorch.org/whl/cu121
+# 国内镜像：-i https://pypi.tuna.tsinghua.edu.cn/simple（torch 仍走 pytorch 源）
+# HuggingFace 模型下载：set HF_ENDPOINT=https://hf-mirror.com（Windows）/ export（Linux）
+
+# ---- PyTorch（CUDA 12.1，3080 Ampere）----
+torch==2.5.1
+
+# ---- 数据引擎（CPU，沙箱实测）----
+pandapower==3.5.4
+simbench==1.6.2
+pandas==2.3.3
+numpy>=2.0,<2.1
+pyarrow>=15
+numba>=0.60
+scipy
+openpyxl
+
+# ---- 训练栈（TRL 0.17 API，脚本已适配）----
+transformers==4.51.3
+trl==0.17.0
+peft==0.15.2
+datasets>=3.0
+accelerate>=1.0
+bitsandbytes>=0.45,<0.47
+sentencepiece
+safetensors
+huggingface_hub[cli]
+
+# ---- 评测与分析 ----
+openai
+matplotlib
+scikit-learn
+tqdm
+pytest
+
+# ---- Linux/WSL2 加速组件（Windows 跳过）：见 requirements-linux-extras.txt ----

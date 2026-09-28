@@ -1,0 +1,102 @@
+{
+ "0.5B_3k_nocurr": {
+  "id": {
+   "n": 300,
+   "viol_f1": 0.3611,
+   "v_mae": 0.5826,
+   "state_acc": 0.1667,
+   "ics": 0.2239,
+   "phys_score": 0.0646,
+   "format_rate": 0.37
+  },
+  "holdout": {
+   "n": 461,
+   "viol_f1": 0.2393,
+   "v_mae": 0.7522,
+   "state_acc": 0.0911,
+   "ics": 0.1423,
+   "phys_score": 0.0305,
+   "format_rate": 0.2061
+  }
+ },
+ "1.5B_3k_nocurr": {
+  "id": {
+   "n": 300,
+   "viol_f1": 0.4705,
+   "v_mae": 0.1809,
+   "state_acc": 0.49,
+   "ics": 0.4661,
+   "phys_score": 0.1878,
+   "format_rate": 0.81
+  },
+  "holdout": {
+   "n": 461,
+   "viol_f1": 0.3925,
+   "v_mae": 0.2917,
+   "state_acc": 0.3623,
+   "ics": 0.3905,
+   "phys_score": 0.1835,
+   "format_rate": 0.679
+  }
+ },
+ "3B_3k_nocurr": {
+  "id": {
+   "n": 300,
+   "viol_f1": 0.6361,
+   "v_mae": 0.1836,
+   "state_acc": 0.6367,
+   "ics": 0.5486,
+   "phys_score": 0.1651,
+   "format_rate": 0.82
+  },
+  "holdout": {
+   "n": 461,
+   "viol_f1": 0.5491,
+   "v_mae": 0.2404,
+   "state_acc": 0.6009,
+   "ics": 0.4204,
+   "phys_score": 0.1242,
+   "format_rate": 0.7267
+  }
+ },
+ "1.5B_3k_curr(v1)": {
+  "id": {
+   "n": 300,
+   "viol_f1": 0.5713,
+   "v_mae": 0.1143,
+   "state_acc": 0.6,
+   "ics": 0.5284,
+   "phys_score": 0.2285,
+   "format_rate": 0.8667
+  },
+  "holdout": {
+   "n": 461,
+   "viol_f1": 0.4841,
+   "v_mae": 0.177,
+   "state_acc": 0.5184,
+   "ics": 0.4512,
+   "phys_score": 0.2126,
+   "format_rate": 0.8113
+  }
+ },
+ "1.5B_20k_curr(v2)": {
+  "id": {
+   "n": 999,
+   "viol_f1": 0.6612,
+   "v_mae": 0.2244,
+   "state_acc": 0.7588,
+   "ics": 0.4336,
+   "phys_score": 0.3779,
+   "format_rate": 0.8699
+  },
+  "holdout": {
+   "n": 461,
+   "viol_f1": 0.5851,
+   "v_mae": 0.2738,
+   "state_acc": 0.6139,
+   "ics": 0.4278,
+   "phys_score": 0.29,
+   "format_rate": 0.7614
+  }
+ }
+}

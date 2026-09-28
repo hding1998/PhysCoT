@@ -1,0 +1,5 @@
+{
+  "_comment": "扣留泛化评测集配置：组合干预富集（训练从未见过 combo 与 extreme）",
+  "combo_ratio": 0.6,
+  "t1_ratio": 0.3
+}

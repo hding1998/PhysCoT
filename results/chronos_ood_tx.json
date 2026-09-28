@@ -1,0 +1,44 @@
+{
+  "overall": {
+    "n": 999,
+    "v_mae": 0.07047664543443374,
+    "viol_f1": 0.1854726573948389,
+    "state_acc": 0.8848848848848849,
+    "format_rate": null,
+    "phys_resid": null,
+    "ics": null
+  },
+  "history_mode": {
+    "curve_reconstructed": 999
+  },
+  "skipped": {},
+  "model": "amazon/chronos-bolt-small",
+  "context_len": 48,
+  "IEEE118": {
+    "n": 333,
+    "v_mae": 0.06987210023559787,
+    "viol_f1": 0.10115298719314823,
+    "state_acc": 0.8078078078078078,
+    "format_rate": null,
+    "phys_resid": null,
+    "ics": null
+  },
+  "Illinois200": {
+    "n": 333,
+    "v_mae": 0.07077017331969093,
+    "viol_f1": 0.11832818632565963,
+    "state_acc": 0.8468468468468469,
+    "format_rate": null,
+    "phys_resid": null,
+    "ics": null
+  },
+  "PEGASE89": {
+    "n": 333,
+    "v_mae": 0.07078766274801246,
+    "viol_f1": 0.3369367986657088,
+    "state_acc": 1.0,
+    "format_rate": null,
+    "phys_resid": null,
+    "ics": null
+  }
+}

@@ -1,0 +1,32 @@
+{
+ "v1_id_pn": {
+  "success_t3": [
+   "IEEE33-000009",
+   "IEEE33-000100",
+   "IEEE33-000138",
+   "IEEE33-000194"
+  ],
+  "high_err": [
+   "IEEE33-000137",
+   "IEEE33-000321",
+   "CIGRE_MV-000031",
+   "CIGRE_MV-000069"
+  ],
+  "abstain": []
+ },
+ "v1_holdout": {
+  "success_t3": [
+   "IEEE33-000002",
+   "IEEE33-000012",
+   "IEEE33-000024",
+   "IEEE33-000030"
+  ],
+  "high_err": [
+   "IEEE33-000035",
+   "IEEE33-000074",
+   "IEEE33-000081",
+   "IEEE33-000100"
+  ],
+  "abstain": []
+ }
+}

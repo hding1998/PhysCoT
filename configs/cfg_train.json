@@ -1,0 +1,6 @@
+{
+  "_comment": "主训练配置：组合干预扣留（C3）——训练只见单动作且排除 extreme 档（factor>=1.3 或 <=0.55），combo/extreme 全部留给 eval_holdout；max_retry 控制不收敛场景的重采样上限",
+  "combo_ratio": 0.0,
+  "exclude_extreme": true,
+  "max_retry": 5
+}

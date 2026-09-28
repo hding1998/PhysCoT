@@ -1,0 +1,44 @@
+{
+  "overall": {
+    "n": 999,
+    "v_mae": 0.07266727554777044,
+    "viol_f1": 0.24227231837827634,
+    "state_acc": 0.4964964964964965,
+    "format_rate": null,
+    "phys_resid": null,
+    "ics": null
+  },
+  "history_mode": {
+    "curve_reconstructed": 999
+  },
+  "skipped": {},
+  "model": "amazon/chronos-bolt-small",
+  "context_len": 48,
+  "CIGRE_MV": {
+    "n": 333,
+    "v_mae": 0.07430454251634945,
+    "viol_f1": 0.32048326677370514,
+    "state_acc": 0.45345345345345345,
+    "format_rate": null,
+    "phys_resid": null,
+    "ics": null
+  },
+  "IEEE33": {
+    "n": 333,
+    "v_mae": 0.0729140575867784,
+    "viol_f1": 0.2758849041824045,
+    "state_acc": 0.4954954954954955,
+    "format_rate": null,
+    "phys_resid": null,
+    "ics": null
+  },
+  "SimBench_1-MV-urban--0-sw": {
+    "n": 333,
+    "v_mae": 0.07078322654018351,
+    "viol_f1": 0.13044878417871938,
+    "state_acc": 0.5405405405405406,
+    "format_rate": null,
+    "phys_resid": null,
+    "ics": null
+  }
+}
